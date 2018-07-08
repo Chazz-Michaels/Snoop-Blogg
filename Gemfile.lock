@@ -194,7 +194,7 @@ DEPENDENCIES
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1.1)
   byebug
-  ckeditor (~> 4.1)
+  ckeditor
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   jquery-rails
