@@ -73,7 +73,7 @@ test:
 #
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
 #
-DATABASE_URL="postgres://saasdqgpndzvdv:7558f58d04bbc881e325c5f0e264f948d4646d127574e31f3bd3230814304d6d@ec2-23-23-93-115.compute-1.amazonaws.com:5432/dad2pae582vspg"
+    DATABASE_URL="postgres://saasdqgpndzvdv:7558f58d04bbc881e325c5f0e264f948d4646d127574e31f3bd3230814304d6d@ec2-23-23-93-115.compute-1.amazonaws.com:5432/dad2pae582vspg"
 #
 # You can use this database configuration with:
 #
