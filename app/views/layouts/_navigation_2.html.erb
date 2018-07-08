@@ -1,4 +1,4 @@
-<nav class="navbar" id="home">
+<nav class="navbar navbar-expand-lg" id="home">
   <div class="container">
 
     <li class="nav-item dropdown list-unstyled">
@@ -6,26 +6,16 @@
         Snoop Blogg
       </a>
       <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item">
           <%= link_to 'Home', root_path, class:'dropdown-item' %>
-
         <div class="dropdown-divider"></div>
         <% if admin_signed_in? %>
-
           <%= link_to 'New Post', new_post_path, class:'dropdown-item' %>
-
         <div class="dropdown-divider"></div>
-      
           <%= link_to 'My Account', edit_admin_registration_path, class:'dropdown-item'  %>
-
         <div class="dropdown-divider"></div>
-
           <%= link_to 'Logout', destroy_admin_session_path, :method => :delete, class:'dropdown-item' %>
-
         <% else %>
-
           <%= link_to 'Login', new_admin_session_path, class:'dropdown-item'  %>
-
         <% end %>
       </div>
     </li>

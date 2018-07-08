@@ -1,7 +1,9 @@
 .navbar {
   background-color: $wine;
-  //margin: 0;
-
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
 }
 .navbar-brand {
   font-family: $brandFont;
@@ -17,4 +19,21 @@ nav {
 }
 .nav-link {
   color: $white;
+}
+.dropdown-item {
+  color: $wine;
+}
+.dropdown-menu {
+  background-color: $white;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: $pink;
+}
+.navbar-brand:hover {
+  color: $pink;
+}
+.dropdown-item:hover {
+  color: $black;
+  background-color: $pink;
 }

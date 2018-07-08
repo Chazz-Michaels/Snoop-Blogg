@@ -5,6 +5,8 @@ body {
   background: rgba($pink, 0.9);
   font-family: $mainFont;
   padding: 0;
+  margin-top: 9em;
+  overflow: hidden;
 }
 .background-image {
   position: fixed;
