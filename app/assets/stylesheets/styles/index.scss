@@ -1,0 +1,26 @@
+.btn {
+  border: 2px solid $black;
+}
+.show-button {
+  background-color: $white;
+  color: $wine;
+}
+.edit-button {
+  background-color: $pink;
+  color: $black;
+}
+.delete-button {
+  background-color: $magenta;
+  color: $white;
+}
+.read-more {
+  color: $magenta;
+}
+.blog-content {
+  color: $black;
+}
+.blog-body {
+  font-size: 2em;
+  background-color: $white;
+  padding: 1em 2em;
+}

@@ -1,14 +1,14 @@
 body {
-  background: $pink;
   font-size: 62.5%;
 }
 .main-content {
   background: rgba($pink, 0.9);
   font-family: $mainFont;
-  //height: 100vh;
+  padding: 0;
 }
 .background-image {
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
   z-index: -1;

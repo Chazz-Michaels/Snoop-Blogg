@@ -1,11 +1,14 @@
 .navbar {
   background-color: $wine;
+  //margin: 0;
+
 }
 .navbar-brand {
   font-family: $brandFont;
   font-weight: 600;
   font-size: 1.8em;
   color: $white;
+  background-color: $wine;
 }
 nav {
   font-size: 1.7em;
