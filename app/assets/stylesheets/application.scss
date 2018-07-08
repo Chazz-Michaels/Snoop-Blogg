@@ -13,3 +13,9 @@
  */
  // Bootstrap
 @import "bootstrap";
+// Variables
+@import "base/variables";
+// Default styles
+@import "base/globals";
+// Styles
+@import "styles/*";

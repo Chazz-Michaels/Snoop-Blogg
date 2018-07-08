@@ -4,15 +4,25 @@
     <title>Snoop Blogg</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <%= favicon_link_tag asset_path('fav.ico'), :rel => 'icon', :type => 'image/x-icon' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <%= render "layouts/navigation" %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <%= yield %>
+    <%= render "layouts/navigation_2" %>
+
+    <div class="offset-sm-1 col-sm-10 main-content">
+
+      <div class="background-image"><%= image_tag('space-bg.png',id:'bg-image') %></div>
+
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+        <%= yield %>
+
+      </div>
+
   </body>
 </html>
