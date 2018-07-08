@@ -24,6 +24,8 @@ gem 'jquery-rails'
 gem 'simple_form'
 # Use ckeditor for post creation
 gem 'ckeditor'
+# Use devise for user authentication
+gem 'devise'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
