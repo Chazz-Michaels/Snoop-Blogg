@@ -22,6 +22,8 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 # Use simple form
 gem 'simple_form'
+# Use ckeditor for post creation
+gem 'ckeditor', '~> 4.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
