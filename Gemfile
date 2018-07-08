@@ -26,6 +26,9 @@ gem 'simple_form'
 gem 'ckeditor'
 # Use devise for user authentication
 gem 'devise'
+# Use for image uploading to posts
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
